@@ -1,0 +1,69 @@
+site_name: Panduan Aplikasi Manajemen Pegawai
+# site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  palette:
+
+    # Palette toggle for light mode
+    - scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: green
+      accent: green
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+  
+  # Mengatur font
+  font:
+    text: Open Sans
+    code: JetBrains Mono
+
+  # icon:
+    # logo: material/book
+  favicon: images/open-book.png
+  logo: images/open-book.png
+
+  icon:
+    admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
+
+  features:
+    # - navigation.footer
+    # - navigation.tabs
+  
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  # Fitur
+  - attr_list
+
+
+# Footer
+copyright: Made with ❤️ by Maul | &copy; 2025
+
+extra:
+  generator: false
+  
