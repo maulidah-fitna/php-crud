@@ -17,7 +17,7 @@
         <input type="radio" name="jurusan" id="jurusan" value="AKL" required>AKL
         <p>
             <input type="reset" value="Reset">
-            <input type="Submit" value="Submit">
+            <input type="submit" value="Simpan">
         </p>
     </fieldset>
 </form>
